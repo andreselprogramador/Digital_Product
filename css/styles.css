@@ -1,0 +1,221 @@
+/*--------------------Variables*/
+:root{
+    --green-color: #7ACC2D;
+    --white-color: white;
+    --black-color: #313337; 
+    /*Espaciado*/
+    --space: 10px;
+    /*Tipografia*/
+    --normal: 12px;
+    /*Box shadow*/
+    --box: 0 0 1px #c1bcbc;
+
+}
+
+*{
+    margin: 0;
+    padding: 0px;
+}
+
+body{
+    font-size: var(--normal);
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav{
+    background-color: var(--green-color);
+    padding: var(--space);
+    color: var(--white-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+p, label{
+    font-size: var(--normal);
+}
+
+
+nav ul{
+    display: flex;
+}
+
+nav li{
+    padding-left: 20px;
+    list-style: none;
+}
+
+nav li a{
+    color: var(--black-color);
+    text-decoration: none;
+}
+
+nav li a:hover{
+    color: var(--white-color);
+}
+
+/*-------------------------------Main section*/
+
+.main_section{
+    padding: 20%;
+    text-align: center;
+}
+
+.products{
+    background-image: url(../img/curve.png);
+    height: 100px;
+    background-size: cover;
+    background-position: center top;
+    padding: 15%;
+    display: flex;
+}
+
+.product{
+    padding: var(--space);
+    margin-top: -240px;
+}
+
+.product .content{
+    background-color: var(--white-color);
+    padding: 15px;
+    box-shadow: var(--box);
+}
+
+.img_content{
+    text-align: center;
+}
+
+.main_button{
+    background-color: var(--green-color);
+    width: 100%;
+    padding: var(--space);
+    font-size: 17px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.main_button:hover{
+    background-color: #5e9e22;
+}
+
+.product_attributes{
+    padding: var(--space);
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin: 200px auto;
+    border-bottom: 1px solid black;
+}
+
+.attributes_card{
+    width: 154px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.attributes_card img{
+    width: 138px;
+}
+
+.attributes_card h2{
+    font-weight: 700;
+    font-size: 16px;
+    margin: 20px 0px;
+}
+
+.attributes_card p{
+    text-align: left;
+    font-size: 11px;
+    font-weight: 400;
+    color: #313337;
+}
+
+h3{
+    font-size: 30px;
+    text-align: center;
+    margin: 40px 0px;
+}
+
+.product_mentions{
+    padding: var(--normal);
+    width: 90%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.mentions_card{
+    background-color: var(--white-color);
+    box-shadow: var(--box);
+    text-align: left;
+    width: 24%;
+}
+
+.mentions_card img{
+    width: 100%;
+}
+
+.mentions_card h2{
+    font-size: 17px;
+}
+
+.mentions_card p{
+    font-size: var(--normal);
+}
+
+.mentions_card h2,p{
+    padding: 5px 10px;
+}
+
+/*--------------------------------------------- Venta*/
+
+.modulo_pago{
+    background-color: var(--white-color);
+    box-shadow: var(--box);
+    padding: var(--normal);
+}
+
+.modulo_pago_images{
+    max-width: 150px;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+}
+
+.data{
+    margin-top: var(--space);
+    height: 35px;
+    width: 100%;
+    border-radius: 2px;
+    border: 1px solid var(--black-color);
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+/*--------------------------------------------- Venta*/
+
+footer{
+    background-color: #313337;
+    padding: var(--normal);
+    margin-top: 40px;
+}
+
+.contact a{
+    color: var(--green-color);
+}
+
+.footer_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--white-color);
+}
+
+.footer_container .link a{
+    text-decoration: none;
+    color: var(--white-color);
+}
+

@@ -1,0 +1,26 @@
+@media (max-width: 600px){
+    .products{
+        display: inherit;
+        height: auto;
+    }
+    .product{
+        margin-top: auto;
+    }
+    .main_section{
+        padding: 4%;
+    }
+    .product_attributes{
+        flex-direction: column;
+    }
+    .product_attributes .attributes_card{
+        width: 100%;
+    }
+    .product_mentions {
+        display: inherit;
+    }
+
+    .product_mentions .mentions_card{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
